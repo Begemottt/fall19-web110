@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>Tim Robinson Artist</title>
+        
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <!-- Google Font: Titillium Web -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" />
+        
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <!-- MenuMaker Plugin -->
+        <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
+        
+        <!-- Icon Library -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+        <script src="js/script.js"></script>
+        
+    </head>
+    
+    <body>
+        <nav>
+            <!-- Navigation menu from CSSMenuMaker dot com -->
+            <!-- Mobile breakpoint: 590px -->
+            <div id="cssmenu">
+              <ul>
+                <li><a href="index.html"><img class="logo" src="images/logo.jpg" alt="Site logo: Tim Robinson" /></a></li>
+                <li><a href="about.html"><i class="fa fa-fw fa-child"></i> About</a></li>
+                <li><a href="gallery.html"><i class="fa fa-fw fa-institution"></i> Gallery</a></li>
+                <li><a href="pricing.html"><i class="fa fa-fw fa-credit-card"></i> Pricing</a></li>
+                <li><a href="contact.php"><i class="fa fa-fw fa-phone"></i> Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        
+        <h1>Put Contact Sheet Here!</h1>
+        
+        <footer>
+            <p><small>&copy; 2019 by <a href="contact.php">Robin VanGilder</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+        </footer>
+    </body>
+    
+</html>

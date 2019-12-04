@@ -57,7 +57,24 @@
             </header>
             <section class="fullwidth">
                 <h2 class="subheader">Contact Robin</h2>
-                <p>Watch the supporting instructional video to create the content for this page.</p>
+                <?php
+                    /*
+                     * Below are 2 different forms to be re-used       
+                     * 
+                     * Only use one at a time, comment out the other!       
+                     *
+                     */
+
+                    include 'includes/contact_include.php'; #site keys & code here
+
+                    $toAddress = "poliosis@gmail.com";  //place your/your client's email address here
+                    $toName = "Robin VanGilder"; //place your client's name here
+                    $website = "Robin's Student Page";  //place NAME of your client's website
+
+                    echo loadContact('simple.php');#demonstrates a simple contact form
+                    //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+                ?>
             </section>
 
 			<footer>
@@ -70,5 +87,15 @@
 				</p>
 			</footer>
 		</main>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }   
+      </script>
 	</body>
 </html>
